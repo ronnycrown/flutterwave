@@ -1,0 +1,333 @@
+/* styles for the flutterwave site */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+  max-width: 100%;
+}
+
+header {
+  background-color: #dadef5;
+  display: flex;
+  padding: 50px 0 50px 100px;
+}
+
+header .logo {
+  margin-top: -0.5%;
+}
+
+.links {
+  margin-left: 20%; 
+}
+
+.links ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px 10px 5px 30px;
+}
+
+.links ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.links ul li a:hover {
+  color: #f5a623;
+}
+
+header .create {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5a623;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.links .create:hover {
+  background-color: #db8c0a;
+}
+
+.information {
+  background-color: #dadef5;
+  height: 590px;
+}
+
+section .grow {
+  padding: 50px 0 0 80px;
+} 
+
+section .grow h1 {
+  color: #0f1c70;
+  line-height: 1.5;
+  font-size: 50px;
+}
+
+section .grow p {
+  color: #4f4f4f;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+section .grow .create {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f5a623;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+section .grow .create:hover {
+  background-color: #db8c0a;
+}
+
+section .grow .speak {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #0f1c70;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.fig {
+  margin-left: 44%;
+  margin-top: -28%;
+  width: 55%;
+
+}
+
+.payment {
+  background-color: #f4f6f8;
+  padding: 100px 90px;
+  height: 990px;
+}
+
+.payment h1 {
+  text-align: center;
+  color: #0f1c70;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.payment .picture {
+  padding-top: 80px;
+  height: 630px;
+  width: 500px;
+  margin-top: 70px;
+}
+
+.payment .text {
+  margin-left: 53%;
+  margin-top: -55%;
+}
+
+.payment .text h2 {
+  font-size: 40px;
+}
+
+.payment .text p, ul {
+  color: #4f4f4f;
+}
+
+.payment .text h4 {
+  color: #0f1c70;
+}
+
+.web {
+  margin-top: 40px;
+}
+
+.pos {
+  margin-left: 280px;
+  margin-top: -58px;
+}
+
+.reach {
+  margin-top: 40px;
+}
+
+.list1 {
+  margin-top: 40px;
+}
+
+.list1 ul, li {
+  list-style-type: none;
+  display: inline;
+}
+
+.list2 {
+  margin-left: 280px;
+  margin-top: -162px;
+}
+
+.list2 ul, li {
+  list-style-type: none;
+  display: inline;
+}
+
+.card {
+  height: 750px;
+}
+
+.card h1 {
+  font-size: 40px;
+}
+
+.card p {
+  color: #4f4f4f;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+.card h4 {
+  padding-top: 35px;
+  color: #0f1c70;
+}
+
+.card a {
+  color: #f5a623;
+}
+
+.video {
+  margin-left: 600px;
+  margin-top: -35%;
+  display: block;
+}
+
+.safety {
+  height: 900px;
+  background-color: #f4f6f8;
+  padding: 20px 0 0 90px;
+}
+
+.compass {
+  border: 2px solid #f4f6f8;
+  width: 48%;
+}
+
+.word {
+  margin-left: 50%;
+  margin-top: -56%;
+}
+
+.word h1 {
+  font-size: 40px;
+}
+
+.word p {
+  color: #4f4f4f;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+.word h4 {
+  padding-top: 35px;
+  color: #0f1c70;
+}
+
+.support {
+  padding-left: 74px;
+  background-color: #fafafa;
+  height: 600px;
+}
+
+.rollup {
+  border: 2px solid green;
+  height: 500px;
+  width: 40%;
+}
+
+.rolluptext {
+  margin-left: 50%;
+  margin-top: -32%;
+}
+
+.rolluptext h1 {
+  font-size: 50px;
+}
+
+.rolluptext p {
+  font-size: 20px;
+  color: #4f4f4f;
+}
+
+.rolluptext a {
+  color: #f5a623;
+}
+
+.start {
+  padding-top: 90px;
+  height: 400px;
+}
+
+.start h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.start p {
+  font-size: 20px;
+  color: #4f4f4f;
+  text-align: center;
+}
+
+.start .create {
+  padding: 15px 49px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f5a623;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 36%;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.start .create:hover {
+  background-color: #db8c0a;
+}
+
+.start .speak {
+  padding: 15px 49px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #0f1c70;
+  cursor: pointer;
+  margin-left: 2%;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+footer {
+  height: 700px;
+  padding: 10px 70px 20px;
+}
+
+.former {
+  margin-left: 17%;
+  margin-top: -7%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.media {
+  float: right;
+  margin-top: -2%;
+}
+
